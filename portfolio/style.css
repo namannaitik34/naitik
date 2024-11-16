@@ -119,8 +119,6 @@ body{
     padding: 200px 0; 
 }
 .leftsection{
-    margin-top: -150px;
-    padding: 50px;
     display: flexbox;
     flex-direction: column;
     
@@ -265,8 +263,49 @@ body{
 .info:hover{
     background-color: whitesmoke;
 }
+.skills-section{
+    text-align: center;
+    font-family: Protest Strike, sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    padding-top: 50px ;
+    color:gray;
+}
+.skills{
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-align: start;
+    font-size: 25px;
+    font-weight: 510;
+    color: black;
+    flex-direction: row;
+    padding: 50px 200px 100px 200px;
+    gap: 200px;
+}
 
-
+.skill-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.icon:hover{
+    cursor: pointer;
+    color: gray;
+}
+.skill-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+}
+.skill-3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+}
 #projects{
     font-family: Protest Strike, sans-serif;
     letter-spacing: px;
@@ -380,12 +419,12 @@ body{
     font-weight: 400;
     font-family: "Style Script", cursive;
 }
-.content{
+.content1-1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     font-size: 2.5rem;
 }
-.content>strong{
-    background: -webkit-linear-gradient(195deg,#ee838e,#e3ef77);
+.content1-1>strong{
+    background: -webkit-linear-gradient(195deg,#e3ef77,#ee838e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
 .card2-1{
@@ -412,7 +451,8 @@ body{
     height: auto;
 }
 .head-2{
-    font-size: 4.5rem;
+    font-family: "Orbitron", sans-serif;
+    font-size: 3.7rem;
     font-weight: 500;
 }
 
@@ -505,6 +545,14 @@ body{
         font-size: 2.5rem;
 
     }
+    .content1-1{
+    font-size: 1.5rem;
+
+    }
+    .content1-1>img{
+        width: 20px;
+    }
+
     .card2-1{
         width:330px;
         height:330px;
